@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/NewProjectHome.dir/main.cpp.o -o NewProjectHome 
