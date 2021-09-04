@@ -82,7 +82,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/tatev/Desktop/NewProjectHome/main.cpp">
+		<Unit filename="/home/tatev/Desktop/NewProjectHome/main2.cpp">
 			<Option target="NewProjectHome"/>
 		</Unit>
 		<Unit filename="/home/tatev/Desktop/NewProjectHome/CMakeLists.txt">

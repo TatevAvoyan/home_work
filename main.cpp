@@ -1,5 +1,5 @@
-//#include "iostream"
-//
+#include "iostream"
+
 //int main() {
 //
 //    int i = 0;
@@ -20,18 +20,15 @@
 //
 //}
 
-
-#include "iostream"
-
 int main() {
 
     int i = 0;
-    int f = 2;
+    int f = 40;
 
-    while(i < 3){
+    while(i < 40){
         int b = 0;
 
-        while(b < 3 ){
+        while(b < 40){
             if(b < f){
                 printf(" ");
             } else{

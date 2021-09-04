@@ -44,10 +44,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/162/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/163/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/162/bin/cmake/linux/bin/cmake -E rm -f
+RM = /snap/clion/163/bin/cmake/linux/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -66,27 +66,27 @@ include CMakeFiles/NewProjectHome.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/NewProjectHome.dir/flags.make
 
-CMakeFiles/NewProjectHome.dir/main.cpp.o: CMakeFiles/NewProjectHome.dir/flags.make
-CMakeFiles/NewProjectHome.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tatev/Desktop/NewProjectHome/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/NewProjectHome.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NewProjectHome.dir/main.cpp.o -c /home/tatev/Desktop/NewProjectHome/main.cpp
+CMakeFiles/NewProjectHome.dir/main2.cpp.o: CMakeFiles/NewProjectHome.dir/flags.make
+CMakeFiles/NewProjectHome.dir/main2.cpp.o: ../main2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tatev/Desktop/NewProjectHome/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/NewProjectHome.dir/main2.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NewProjectHome.dir/main2.cpp.o -c /home/tatev/Desktop/NewProjectHome/main2.cpp
 
-CMakeFiles/NewProjectHome.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NewProjectHome.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tatev/Desktop/NewProjectHome/main.cpp > CMakeFiles/NewProjectHome.dir/main.cpp.i
+CMakeFiles/NewProjectHome.dir/main2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NewProjectHome.dir/main2.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tatev/Desktop/NewProjectHome/main2.cpp > CMakeFiles/NewProjectHome.dir/main2.cpp.i
 
-CMakeFiles/NewProjectHome.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NewProjectHome.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tatev/Desktop/NewProjectHome/main.cpp -o CMakeFiles/NewProjectHome.dir/main.cpp.s
+CMakeFiles/NewProjectHome.dir/main2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NewProjectHome.dir/main2.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tatev/Desktop/NewProjectHome/main2.cpp -o CMakeFiles/NewProjectHome.dir/main2.cpp.s
 
 # Object files for target NewProjectHome
 NewProjectHome_OBJECTS = \
-"CMakeFiles/NewProjectHome.dir/main.cpp.o"
+"CMakeFiles/NewProjectHome.dir/main2.cpp.o"
 
 # External object files for target NewProjectHome
 NewProjectHome_EXTERNAL_OBJECTS =
 
-NewProjectHome: CMakeFiles/NewProjectHome.dir/main.cpp.o
+NewProjectHome: CMakeFiles/NewProjectHome.dir/main2.cpp.o
 NewProjectHome: CMakeFiles/NewProjectHome.dir/build.make
 NewProjectHome: CMakeFiles/NewProjectHome.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tatev/Desktop/NewProjectHome/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable NewProjectHome"

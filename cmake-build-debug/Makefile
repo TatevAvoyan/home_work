@@ -48,10 +48,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/162/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/163/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/162/bin/cmake/linux/bin/cmake -E rm -f
+RM = /snap/clion/163/bin/cmake/linux/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /home/tatev/Desktop/NewProjectHome/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/snap/clion/162/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/snap/clion/163/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -78,7 +78,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/snap/clion/162/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/snap/clion/163/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -129,29 +129,29 @@ NewProjectHome/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/NewProjectHome.dir/build.make CMakeFiles/NewProjectHome.dir/build
 .PHONY : NewProjectHome/fast
 
-main.o: main.cpp.o
-.PHONY : main.o
+main2.o: main2.cpp.o
+.PHONY : main2.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NewProjectHome.dir/build.make CMakeFiles/NewProjectHome.dir/main.cpp.o
-.PHONY : main.cpp.o
+main2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NewProjectHome.dir/build.make CMakeFiles/NewProjectHome.dir/main2.cpp.o
+.PHONY : main2.cpp.o
 
-main.i: main.cpp.i
-.PHONY : main.i
+main2.i: main2.cpp.i
+.PHONY : main2.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NewProjectHome.dir/build.make CMakeFiles/NewProjectHome.dir/main.cpp.i
-.PHONY : main.cpp.i
+main2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NewProjectHome.dir/build.make CMakeFiles/NewProjectHome.dir/main2.cpp.i
+.PHONY : main2.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+main2.s: main2.cpp.s
+.PHONY : main2.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NewProjectHome.dir/build.make CMakeFiles/NewProjectHome.dir/main.cpp.s
-.PHONY : main.cpp.s
+main2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NewProjectHome.dir/build.make CMakeFiles/NewProjectHome.dir/main2.cpp.s
+.PHONY : main2.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... NewProjectHome"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... main2.o"
+	@echo "... main2.i"
+	@echo "... main2.s"
 .PHONY : help
 
 
