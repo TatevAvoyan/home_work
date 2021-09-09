@@ -1,48 +1,21 @@
 #include "iostream"
-
-//int main() {
-//
-//    int i = 0;
-//
-//    while(i < 2){
-//        printf("    *  \n");
-//        i = i + 1;
-//        while (i < 3){
-//            printf("  * ");
-//            i = i + 1;
-//        }
-//        printf("\n");
-//        while (i < 6){
-//            printf(" * ");
-//            i = i + 1;
-//        }
-//    }
-//
-//}
+#include "test.h"
 
 int main() {
 
-    int i = 0;
-    int f = 40;
 
-    while(i < 40){
-        int b = 0;
+    // գտնում է մասիվի ամենամեծ թիվը
+    int arr[] = { 34, 65, 238, 54, 23};
+    int arr1[] = { 344, 65, 238, 544, 233};
 
-        while(b < 40){
-            if(b < f){
-                printf(" ");
-            } else{
-                printf("* ");
-            }
+    a(0, arr);
+    a(0, arr1);
 
-            b++;
+    // նկարում է եռանկյուն աստղանիշերի միջոցով
+    er(0,40);
 
-        }
-        f--;
-        printf("\n");
-        i++;
-    }
 
+    return 0;
 }
 
 

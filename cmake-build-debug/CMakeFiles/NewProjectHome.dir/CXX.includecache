@@ -6,7 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/home/tatev/Desktop/NewProjectHome/main2.cpp
+/home/tatev/Desktop/NewProjectHome/main.cpp
 iostream
--
+/home/tatev/Desktop/NewProjectHome/iostream
+test.h
+/home/tatev/Desktop/NewProjectHome/test.h
+
+/home/tatev/Desktop/NewProjectHome/test.cpp
+iostream
+/home/tatev/Desktop/NewProjectHome/iostream
+test.h
+/home/tatev/Desktop/NewProjectHome/test.h
+
+/home/tatev/Desktop/NewProjectHome/test.h
 
