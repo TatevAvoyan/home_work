@@ -1,5 +1,5 @@
 #pragma once
 
 void a(int num, int arr[]);
-void er(int i, int f);
-void er2();
+void triangle(int star, int step, int max);
+void triangle0();

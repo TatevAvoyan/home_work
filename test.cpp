@@ -13,14 +13,14 @@ void a(int num, int arr[]){
     std::cout << num << "\n";
 }
 
-void er(int i, int f){
+void triangle(int star, int step, int max){
 
 
-    while(i < 40){
+    while(star < max){
         int b = 0;
 
-        while(b < 40){
-            if(b < f){
+        while(b < max){
+            if(b < step){
                 printf(" ");
             } else{
                 printf("* ");
@@ -29,14 +29,14 @@ void er(int i, int f){
             b++;
 
         }
-        f--;
-        printf("\n");
-        i++;
+        step--;
+        star++;
+        cout << '\n';
     }
 }
 
 // եռանկյան առաջին տարբերակը
-void er2() {
+void triangle0() {
 
     int i = 0;
 
